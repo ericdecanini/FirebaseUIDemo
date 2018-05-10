@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="firebaseuidemo.eddecanini.firebaseuidemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/lyt_storage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_storage"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/ic_image"
+                android:paddingBottom="0dp"
+                android:layout_centerInParent="true"
+                android:tint="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StorageUI"
+                android:layout_below="@id/iv_storage"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_900"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lyt_auth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_auth"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/ic_person"
+                android:paddingBottom="0dp"
+                android:layout_centerInParent="true"
+                android:tint="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AuthUI"
+                android:layout_below="@id/iv_auth"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_900"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/lyt_database"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_database"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_dns"
+                android:paddingBottom="0dp"
+                android:layout_centerHorizontal="true"
+                android:tint="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DatabaseUI"
+                android:layout_below="@id/iv_database"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_900"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lyt_firestore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_firestore"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_library_books"
+                android:paddingBottom="0dp"
+                android:layout_centerHorizontal="true"
+                android:tint="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FirestoreUI"
+                android:layout_below="@id/iv_firestore"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_900"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
